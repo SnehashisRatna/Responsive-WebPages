@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class=" xl:bg-gradient-to-r xl:max-w-screen-2xl xl:mx-auto xl:from-black xl:to-stone-800">
+    <!-- Responsivness Web Page -->
+    <!-- Mobile first Approch -->
+
+    <!-- Navbar -->
+    <nav class="w-full  flex  justify-around items-center bg-black text-white  ">
+         <img class="h-16 w-16 xl:h-24 xl:w-24" src="./Photos/Logo.svg" alt="Logo">
+         <select class=" p-2 bg-black text-white xl:hidden">
+            <option value="Hosting">Hosting</option>
+            <option value="Domain">Domain</option>
+            <option value="Features">Features</option>
+            <option value="support">support</option>
+            <option value="Comunity">Comunity</option>
+         </select>
+         <ul class="hidden  xl:flex xl:justify-center xl:items-center space-x-5 xl:text-sm xl:text-stone-400 " >
+            <li class="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-150 hover:text-blue-500 duration-300">Hosting</li>
+            <li class="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-150 hover:text-blue-500 duration-300">Domain</li>
+            <li class="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-150 hover:text-blue-500 duration-300">Features</li>
+            <li class="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-150 hover:text-blue-500 duration-300">support</li>
+            <li class="transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-150 hover:text-blue-500 duration-300">Comunity</li>
+         </ul>
+         <button class="px-4 py-1 rounded-lg transition ease-linear bg-blue-500 delay-75 xl:hover:-translate-y-2 hover:scale-110 hover:bg-indigo-500 duration-300 font-semibold">Login</button>
+    </nav>
+        
+    <!-- Introduction of Page -->
+       <div class= "  bg-black text-white text-center xl:text-left xl:py-16   xl:flex ">
+         <div class="xl:w-[55%]">
+            <p class="px-4 py-16 text-3xl font-bold xl:text-7xl xl:pl-36 xl:hover:text-blue-500" >The best and <span class="italic  text-blue-500 ">cheapest</span> hosting for your website </p>
+            <p class="text-sm px-8 -translate-y-3 pb-10 text-stone-400 xl:text-lg xl:w-9/12 xl:pl-36">Hosting your website here is easy, access is fast,server security is very well maintained, and of course supported by reliable servers.</p>
+            <!-- Button Part -->
+            <div class="flex justify-center xl:justify-start xl:pl-36 space-x-3 pb-8 font-semibold">
+                <button class="px-4 py-1 rounded-full transition ease-in-out bg-blue-500 delay-75 xl:hover:-translate-y-2 hover:scale-110 hover:bg-indigo-500 duration-300">Get Started</button>
+                <button class="px-4 py-1 rounded-full transition ease-linear border-2 xl:hover:border-none  bg-black delay-75 xl:hover:-translate-y-2 hover:scale-110 hover:bg-indigo-500 duration-300">Try Start Free</button>
+            </div>
+        </div>
+        <img  class="p-7" src="./Photos/Illustration/Group 238502.svg" alt="">
+       </div>
+
+       <!-- Logo Bar -->
+       <div class="flex justify-evenly bg-stone-700  ">
+        <img class="h-16 w-16 xl:h-24 xl:w-24" src="./Photos/Logo.svg" alt="Logo">
+        <img class="h-16 w-16 xl:h-24 xl:w-24" src="./Photos/Logo.svg" alt="Logo">
+        <img class="h-16 w-16 xl:h-24 xl:w-24" src="./Photos/Logo.svg" alt="Logo">
+        <img class="h-16 w-16 xl:h-24 xl:w-24 hidden xl:block" src="./Photos/Logo.svg" alt="Logo">
+        <img class="h-16 w-16 xl:h-24 xl:w-24 hidden xl:block" src="./Photos/Logo.svg" alt="Logo">
+       </div>
+
+       <!-- Service Part -->
+       <div class=" bg-white text-black  text-center flex flex-col justify-center items-center xl:py-10  ">
+        <p class="px-4 py-10 text-3xl font-bold xl:text-5xl transition ease-linear hover:scale-110 ">The best service especially for you</p>
+        <p class="text-sm px-8 -translate-y-3  text-stone-400 xl:text-lg xl:w-4/12  ">We will serve you as best we can with the aim of providing satisfaction to you</p>
+
+                <!--Box Part-->
+              <div class="xl:flex xl:justify-between items-center xl:pt-10">
+
+                  <div class="border mx-12 my-10 p-5 border-stone-600 flex flex-col justify-center items-center text-center space-y-5 rounded-2xl xl:hover:bg-black xl:hover:text-white xl:transition xl:ease-linear xl:hover:scale-110 ">
+                       <img class="h-16" src="./Photos/Icons/fast.svg" alt="">
+                       <p class="font-semibold text-2xl py-3">Faster Hosting process</p>
+                       <p class="text-base text-stone-700 w-60">We can speed up the creation of your website, which is made directly by the experts.</p>
+                  </div>
+                       <!-- Box2 -->
+                  <div class="border mx-12 my-10 p-5 border-stone-600 flex flex-col justify-center items-center text-center space-y-5 rounded-2xl  bg-black xl:transition xl:ease-linear xl:hover:scale-110 -translate-y-10 ">
+                    <img class="h-16" src="./Photos/Icons/signal.svg" alt="">
+                    <p class="font-semibold text-2xl text-white  py-3"> Speed to access faster</p>
+                    <p class="text-base text-stone-400 w-56 ">Ecellent network infrastructure and hardware to support fast and stable access.</p>
+               </div>
+                 <!-- Box3 -->
+               <div class="border mx-12 my-10 p-5 border-stone-600 flex flex-col justify-center items-center text-center space-y-5 rounded-2xl   xl:hover:bg-black xl:hover:text-white  xl:transition xl:ease-linear xl:hover:scale-110">
+                       <img class="h-16" src="./Photos/Icons/heart.svg" alt="">
+                       <p class="font-semibold text-2xl py-3">Faster Service 24/7</p>
+                       <p class="text-base text-stone-700 w-60">We have a response time of less than 150 second ,available 24 hours a day.</p>
+                  </div>
+              </div>
+
+              <!-- Buy section  -->
+              <div class="flex flex-col justify-center items-center">
+                <p class="px-4  text-center w-9/12 py-10 text-3xl font-bold xl:text-5xl transition ease-linear hover:scale-110 ">We are ready to support your business needs to be more advanced</p>
+
+                <div class="">
+                    <ul class="flex flex-col space-y-5 list-inside">
+
+                        <li class="border-2 rounded-full  py-5 w-[50vh] flex   font-semibold text-xl pr-10 justify-evenly ">Our main Features <img class="h-7 " src="./Photos/Icons/Group 238512.svg" alt="S"></li>
+                        <li class="border-2 rounded-full  py-5 w-[50vh] flex   font-semibold text-xl pr-10 justify-evenly ">Speed optimization <img class="h-7 " src="./Photos/Icons/Group 238512.svg" alt="S"></li>
+                        <li class="border-2 rounded-full  py-5 w-[50vh] flex   font-semibold text-xl pr-10 justify-evenly ">Downtime and security optimiztion<img class="h-7 " src="./Photos/Icons/Group 238512.svg" alt="S"></li>
+                        <li class="border-2 rounded-full  py-5 w-[50vh] flex   font-semibold text-xl pr-10 justify-evenly ">Additional features <img class="h-7 " src="./Photos/Icons/Group 238512.svg" alt="S"></li>
+                        <li class="border-2 rounded-full  py-5 w-[50vh] flex   font-semibold text-xl pr-10 justify-evenly ">Best technical support Service<img class="h-7 " src="./Photos/Icons/Group 238512.svg" alt="S"></li>
+                        
+                    </ul>
+                </div>
+              </div>
+       </div>
+</body>
+</html>
