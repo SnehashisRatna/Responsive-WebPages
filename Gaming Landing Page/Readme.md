@@ -7,3 +7,5 @@
 3. Additionally, the landing page should include high-quality images and videos that showcase the game's graphics and gameplay. It's also important to include a brief description of the game's features, storyline, and characters.
 
 4. To encourage visitors to take action, the landing page should have a prominent call-to-action button that stands out from the rest of the page. The call-to-action button should clearly communicate what action the visitor is expected to take, such as "Buy Now," "Download Demo," or "Sign Up."
+
+![logo](./Gaming%20Landing%20Page.png)
