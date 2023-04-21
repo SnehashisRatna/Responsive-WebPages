@@ -17,4 +17,4 @@
    In this web page is a web page designed specifically to promote and sell a property or properties. The goal of a real estate landing page is to capture the attention of potential buyers and encourage them to take action, such as filling out a contact form or scheduling a viewing.
   This landing page will feature high-quality photos and videos of the property, as well as a detailed description of the features and amenities. The page may also include floor plans, virtual tours, and other interactive tools to help potential buyers get a better sense of the property.
   
-  # [https://real-estate-projects-ratna.netlify.app/]
+  # [Live Site For This](https://real-estate-projects-ratna.netlify.app/)
